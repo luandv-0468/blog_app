@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import { PostList, Home } from "./components";
+import { PostList, Home, Signup, Signin } from "./components";
 import { MainLayout } from "./layouts";
 
 function App() {
@@ -10,6 +10,8 @@ function App() {
                 <Route path="/" element={<MainLayout />}>
                     <Route path="/" element={<Home />} />
                     <Route path="post" element={<PostList />} />
+                    <Route path="signin" element={<Signin />} />
+                    <Route path="signup" element={<Signup />} />
                 </Route>
             </Routes>
         </>

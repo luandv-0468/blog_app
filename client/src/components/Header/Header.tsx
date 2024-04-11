@@ -32,7 +32,7 @@ export const Header = () => {
                 >
                     Sign In
                 </Link>
-                <Link to="/signout">Sign out</Link>
+                <Link to="/signup">Sign out</Link>
             </Box>
         </Box>
     );
